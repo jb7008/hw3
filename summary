@@ -1,0 +1,131 @@
+======---q2---=======
+Thu Feb 21 14:50:32 EST 2019
+Checking format violation by a script...
+Compiling q2.c to q2
+Comparing using input q2.input.2 and answer q2.ans.2
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 29.0 Overweight
+---
+> Enter weight in pounds: Enter height in inches: 29.3 Overweight.
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 21.0 Normal
+---
+> Enter weight in pounds: Enter height in inches: 21.1 Normal.
+Comparing using input q2.input.3 and answer q2.ans.3
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 32.0 Obese
+---
+> Enter weight in pounds: Enter height in inches: 32.3 Obese.
+======---q2---=======
+Thu Feb 21 14:50:53 EST 2019
+Checking format violation by a script...
+Compiling q2.c to q2
+Comparing using input q2.input.2 and answer q2.ans.2
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 29.3 Overweight
+---
+> Enter weight in pounds: Enter height in inches: 29.3 Overweight.
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 21.1 Normal
+---
+> Enter weight in pounds: Enter height in inches: 21.1 Normal.
+Comparing using input q2.input.3 and answer q2.ans.3
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 32.3 Obese
+---
+> Enter weight in pounds: Enter height in inches: 32.3 Obese.
+======---q2---=======
+Thu Feb 21 14:51:17 EST 2019
+Checking format violation by a script...
+Compiling q2.c to q2
+Comparing using input q2.input.2 and answer q2.ans.2
+Diff output (empty line means correct):
+
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+Comparing using input q2.input.3 and answer q2.ans.3
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 32.3 Obese
+---
+> Enter weight in pounds: Enter height in inches: 32.3 Obese.
+======---q2---=======
+Thu Feb 21 14:51:48 EST 2019
+Checking format violation by a script...
+Compiling q2.c to q2
+Comparing using input q2.input.2 and answer q2.ans.2
+Diff output (empty line means correct):
+
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+Comparing using input q2.input.3 and answer q2.ans.3
+Diff output (empty line means correct):
+
+======---q2---=======
+Thu Feb 21 14:53:05 EST 2019
+Checking format violation by a script...
+Compiling q2.c to q2
+Comparing using input q2.input.2 and answer q2.ans.2
+Diff output (empty line means correct):
+
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+Comparing using input q2.input.3 and answer q2.ans.3
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: Obese.
+---
+> Enter weight in pounds: Enter height in inches: 32.3 Obese.
+======---q2---=======
+Thu Feb 21 14:53:24 EST 2019
+Checking format violation by a script...
+Compiling q2.c to q2
+q2.c: In function ‘main’:
+q2.c:41:16: warning: format ‘%f’ expects a matching ‘double’ argument [-Wformat=]
+     printf("%.1f Obese.\n");
+             ~~~^
+Comparing using input q2.input.2 and answer q2.ans.2
+Diff output (empty line means correct):
+
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+Comparing using input q2.input.3 and answer q2.ans.3
+Diff output (empty line means correct):
+
+1c1
+< Enter weight in pounds: Enter height in inches: 0.0 Obese.
+---
+> Enter weight in pounds: Enter height in inches: 32.3 Obese.
+======---q2---=======
+Thu Feb 21 14:56:56 EST 2019
+Checking format violation by a script...
+Compiling q2.c to q2
+Comparing using input q2.input.2 and answer q2.ans.2
+Diff output (empty line means correct):
+
+Comparing using input q2.input.1 and answer q2.ans.1
+Diff output (empty line means correct):
+
+Comparing using input q2.input.3 and answer q2.ans.3
+Diff output (empty line means correct):
+
