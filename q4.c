@@ -32,7 +32,8 @@ main(void)
 void
 print_contents(char color)
 {
-  switch(color){
+  switch(color)
+  {
     case 'o': case 'O':
       printf("This cylinder contains ammonia.\n");
       break;

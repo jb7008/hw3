@@ -33,16 +33,20 @@ main(void)
   bmi = calc_bmi(weight, height);
 
   /* Displays BMI along with where it falls on the chart */
-  if (bmi < UNDERWEIGHT_NORMAL_LINE){
+  if (bmi < UNDERWEIGHT_NORMAL_LINE)
+  {
     printf("%.1f Underweight.\n", bmi);
   }
-  else if (bmi < NORMAL_OVERWEIGHT_LINE){
+  else if (bmi < NORMAL_OVERWEIGHT_LINE)
+  {
     printf("%.1f Normal.\n", bmi);
   }
-  else if (bmi < OVERWEIGHT_OBESE_LINE){
+  else if (bmi < OVERWEIGHT_OBESE_LINE)
+  {
     printf("%.1f Overweight.\n", bmi);
   }
-  else{
+  else
+  {
     printf("%.1f Obese.\n", bmi);
   }
 

@@ -28,7 +28,8 @@ main(void)
 
   if(x == 0)
   {
-    if(y == 0){ /* If x and y are both 0 */
+    if(y == 0) /* If x and y are both 0 */
+    {
       printf("The point (%.2f, %.2f) lies at the origin.\n", x, y);
     }
     else /* If only x is 0 */
@@ -36,12 +37,15 @@ main(void)
       printf("The point (%.2f, %.2f) lies on the y-axis.\n", x, y);
     }
   }
-  else if(y == 0){ /* If only y is 0 */
+  else if(y == 0) /* If only y is 0 */
+  {
       printf("The point (%.2f, %.2f) lies on the x_axis.\n", x, y);
   }
-  else{ /* If neither are 0 */
+  else /* If neither are 0 */
+  {
     quadrant = find_quadrant(x, y); /* Finds the quadrant (x, y) lies in */
-    switch(quadrant){
+    switch(quadrant)
+    {
       case 1:
       printf("The point (%.2f, %.2f) lies in quadrant I.\n", x, y);
       break;
@@ -63,28 +67,28 @@ main(void)
   return (0);
 }
 
-/* Finds the quadrant (x,y) lies in */
+/* Finds the quadrant (x, y) lies in */
 int
 find_quadrant(float x, float y)
 {
   if(x < 0) /* X is on the left side of cartesian plane */
   {
-    if(y < 0) /* Left-side, below x-axis */
+    if(y < 0) /* Left side, below x_axis */
     {
       return(QUADRANT_III);
     }
-    else /* Left-side, above x-axis */
+    else /* Left side, above x_axis */
     {
       return(QUADRANT_II);
     }
   }
   else /* X is on the right side of the cartesian plane */
   {
-    if(y < 0) /* Right-side, below x-axis */
+    if(y < 0) /* Right side, below x_axis */
     {
       return(QUADRANT_IV);
     }
-    else /* Right-side, above x-axis */
+    else /* Right side, above x_axis */
     {
       return(QUADRANT_I);
     }  
