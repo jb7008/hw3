@@ -7,6 +7,11 @@
 
 #include <stdio.h> /* Includes prinf, scanf */
 
+/* Defines breakpoints for the different levels */
+#define UNDERWEIGHT_NORMAL_LINE 18.5
+#define NORMAL_OVERWEIGHT_LINE 24.9
+#define OVERWEIGHT_OBESE_LINE 29.9
+
 float calc_bmi(int weight, int height); /* Calculates bmi */
 
 int
@@ -28,13 +33,13 @@ main(void)
   bmi = calc_bmi(weight, height);
 
   /* Displays BMI along with where it falls on the chart */
-  if (bmi < 18.5){
+  if (bmi < UNDERWEIGHT_NORMAL_LINE){
     printf("%.1f Underweight.\n", bmi);
   }
-  else if (bmi < 24.9){
+  else if (bmi < NORMAL_OVERWEIGHT_LINE){
     printf("%.1f Normal.\n", bmi);
   }
-  else if (bmi < 29.9){
+  else if (bmi < OVERWEIGHT_OBESE_LINE){
     printf("%.1f Overweight.\n", bmi);
   }
   else{
