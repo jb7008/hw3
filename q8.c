@@ -43,7 +43,7 @@ main(void)
   printf("Enter number of grams emitted per mile>> ");
   scanf("%f", &grams_per_mile);
 
-  /* Gets odomter reading */
+  /* Gets odometer reading */
   printf("Enter odometer reading>> ");
   scanf("%f", &odometer);
 

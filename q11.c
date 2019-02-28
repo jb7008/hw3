@@ -23,7 +23,7 @@ main(void)
   int boiling_point, /* Boiling point of a substance */
     percent_error; /* Percent error allowed from boiling substance */
 
-  /* Gets boilding point */
+  /* Gets boiling point */
   printf("Enter boiling point: ");
   scanf("%d", &boiling_point);
 
